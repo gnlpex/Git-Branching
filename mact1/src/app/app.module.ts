@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TitleComponent } from './title.component';
 
 
 @NgModule({
   declarations: [
   AppComponent,
   HighlightDirective,
+  TitleComponent,
 ],
   imports: [
     BrowserModule
